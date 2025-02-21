@@ -1,9 +1,12 @@
 function count_occurance(strValue, letter) {
   let count = 0;
 
-  strValue.split("").forEach((element) => {
-    if (element === letter) count++;
-  });
+  for (const char of strValue) {
+    if (char === letter) {
+      count++;
+    }
+  }
+
   return count;
 }
 
