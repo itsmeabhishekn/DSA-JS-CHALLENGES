@@ -1,5 +1,5 @@
 export default function findMissingNumber(arr: number[]): number {
-  if (!arr || arr.length) {
+  if (!arr || arr.length == 0) {
     return 0;
   }
 

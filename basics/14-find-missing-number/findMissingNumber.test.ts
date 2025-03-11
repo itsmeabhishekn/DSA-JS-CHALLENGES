@@ -1,4 +1,4 @@
-const findMissingNumber = require("./findMissingNumber").default;
+import findMissingNumber from "./findMissingNumber";
 
 test("Finding the missing number", () => {
   expect(findMissingNumber([1, 2, 3, 5])).toBe(4);
